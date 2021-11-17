@@ -1,12 +1,20 @@
+* {
+  max-width: 850px;
+  margin: auto;
+}
 body {
   background-color: rgb(61, 14, 57);
-  color: white;
+  color: rgb(236, 236, 236);
+}
+
+img {
+  display: block;
 }
 
 .answerButton {
   background-color: rgb(53, 50, 50);
-  color: white;
-  width: 450px;
+  color: rgb(255, 255, 255);
+  width: 200px;
   height: 50px;
   margin: 10px;
   cursor: pointer;
@@ -17,6 +25,7 @@ body {
 }
 
 .answerButton:hover {
+  transform: translateX(50%);
   transform: scale(1.05);
   border-color: rgb(62, 155, 74);
 }
@@ -31,8 +40,8 @@ body {
   border-radius: 5px;
   border-width: 3px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position:relative;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .nextButton:hover {
@@ -40,30 +49,49 @@ body {
 }
 
 .question {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Helvetica', 'Arial Narrow', Arial, sans-serif;
   font-size:20px;
 }
 
 #audio {
-  margin: auto;
-  padding: 10px;
-  
+  margin-bottom: 10px;
+}
+
+#btnDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #container {
   margin: auto;
   max-width: 500px;
-  background-color: rgb(102, 25, 109);
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 5px;
+  padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(29, 29, 29);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* box-shadow: 5px 5px rgb(8, 8, 8); */
+  min-height: 100vh;
+}
+
+#outer {
+  background-color: rgb(96, 41, 100);
+  min-height: 100vh;
+  height: 100%;
 }
 
 #title {
-  margin: auto;
-  padding:auto;
-  max-width: 500px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(77, 18, 64);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-color: rgb(161, 158, 170);
+  border-width: 3px;
+  border-style: solid;
 }

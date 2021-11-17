@@ -43,7 +43,7 @@ var score = {
   "Timid":0
 };
 var count = 0;
-var thankyou = ["Thank you for taking the time to answer this quiz.", "I hope you enjoyed it.", "Now then..."];
+var thankyou = ["Thank you for taking the time to answer this quiz.","I hope you enjoyed it.","Now then..."];
 var textCount = 0;
 var finalNature = [];
 var finalValue;
@@ -64,6 +64,7 @@ function index() {
   q.appendChild(qText);
   container.appendChild(q);
   div = document.createElement("div");
+  div.id = "btnDiv";
 
   // The buttons the user clicks are created
   button1 = document.createElement("button");
@@ -139,7 +140,9 @@ function clickAnswer(question, answer) {
     natures.push(question["nature" + answer + "_4"]);
   }
   
-  score[natures[0].split(" ")[0]] += parseInt(natures[0].split(" +")[1]); // adds the points for the chosen nature to the score
+  for (var i = 0; i < natures.length; i++) {
+    score[natures[i].split(" ")[0]] += parseInt(natures[i].split(" +")[1]); // adds the points for the chosen nature to the score
+  }
   count += 1;
   clear();
   index();
@@ -152,15 +155,21 @@ function clear() {
 
 function finalScore() {
   // sets the highest value natures in an array
+  var largestValue = 0;
   for(var s in score) {
-    if (score[s] > 0 && score[s] > finalValue)
-    finalNature.push(s);
-    finalValue = score[s];
+    if(score[s] >= largestValue) {
+      largestValue = score[s]; // Largest score value
+    }
+  }
+
+  for(var s in score) {
+    if (score[s] == largestValue) {
+      finalNature.push(s);
+    }
   }
 
   // Chooses a random nature from the array
   chosenNature = finalNature[Math.floor(Math.random() * finalNature.length)];
-
   finalPokemon = [];
   // Gets all the Pokemon with the chosen nature
   for (var p in pokemon) {
@@ -171,77 +180,80 @@ function finalScore() {
   // Chooses a random pokemon from the array
   chosenPokemon = finalPokemon[Math.floor(Math.random() * finalPokemon.length)];
 
-  thankyou.push(personalities[0][chosenNature]);
+  // Line breaks for multi-line strings
+  let obtainedDescription = personalities[0][chosenNature].split('\n');
+  for (var i = 0; i < obtainedDescription.length; i++) {
+    thankyou.push(obtainedDescription[i]);
+  }
+  // thankyou.push(personalities[0][chosenNature]);
   thankyou.push(chosenPokemon + "!");
 }
 
-function finish(num) {
+function finish() {
   container = document.getElementById("container");
-  var buttonExists = document.getElementsByClassName("nextButton");
-  // If the next button does not exist, create it
-  if (buttonExists.length == 0) {
-    button = document.createElement("button");
-    button.appendChild(document.createTextNode("Next"));
-    button.className = "nextButton";
-    button.id = "nextButton";
-    button.addEventListener("click", function() {
-      textCount += 1;
-      finish(textCount);
-    }); 
-    container.appendChild(button);
+  var buttonExists = document.getElementById("nextButton");
+  // If the next button exists remove it
+  if (typeof (buttonExists) != 'undefined' && buttonExists != null) {
+    container.removeChild(buttonExists);
   }
+  button = document.createElement("button");
+  button.appendChild(document.createTextNode("Redo"));
+  button.className = "nextButton";
+  button.id = "nextButton";
+  button.addEventListener("click", function () {
+    clear();
+    questions = [...json["questions"]];
+    score = {
+      "Adamant": 0,
+      "Bashful": 0,
+      "Bold": 0,
+      "Brave": 0,
+      "Calm": 0,
+      "Careful": 0,
+      "Docile": 0,
+      "Gentle": 0,
+      "Hardy": 0,
+      "Hasty": 0,
+      "Impish": 0,
+      "Jolly": 0,
+      "Lax": 0,
+      "Lonely": 0,
+      "Mild": 0,
+      "Modest": 0,
+      "Naive": 0,
+      "Naughty": 0,
+      "Quiet": 0,
+      "Quirky": 0,
+      "Rash": 0,
+      "Relaxed": 0,
+      "Sassy": 0,
+      "Serious": 0,
+      "Timid": 0
+    };
+    count = 0;
+    thankyou = ["Thank you for taking the time to answer this quiz.", "I hope you enjoyed it.", "Now then..."];
+    textCount = 0;
+    finalNature = [];
+    finalValue = 0;
+    chosenPokemon = "";
+    chosenNature = "";
+    index();
+  });
 
-  // Changes the eventlistener to restart the quiz once the number of text to be shown has ended
-  button2 = document.getElementById("nextButton");
-  if (num == thankyou.length - 1) {
-    button2.addEventListener("click", function() {
-      if (num == thankyou.length - 1) {
-        clear();
-        questions = [...json["questions"]];
-        score = {
-          "Adamant": 0,
-          "Bashful": 0,
-          "Bold": 0,
-          "Brave": 0,
-          "Calm": 0,
-          "Careful": 0,
-          "Docile": 0,
-          "Gentle": 0,
-          "Hardy": 0,
-          "Hasty": 0,
-          "Impish": 0,
-          "Jolly": 0,
-          "Lax": 0,
-          "Lonely": 0,
-          "Mild": 0,
-          "Modest": 0,
-          "Naive": 0,
-          "Naughty": 0,
-          "Quiet": 0,
-          "Quirky": 0,
-          "Rash": 0,
-          "Relaxed": 0,
-          "Sassy": 0,
-          "Serious": 0,
-          "Timid": 0
-        };
-        count = 0;
-        thankyou = ["Thank you for taking the time to answer this quiz.", "I hope you enjoyed it.", "Now then..."];
-        textCount = 0;
-        finalNature = [];
-        finalValue = 0;
-        chosenPokemon = "";
-        chosenNature = "";
-        index();
-      }
-    })
-  }
   // Show the text 
   q = document.createElement("p"); // create the question text with p node
   q.className = "question";
-  qText = document.createTextNode(thankyou[num]);
-  q.appendChild(qText);
-  container.appendChild(q);
+  for (var i = 0; i < thankyou.length; i++) {
+    q.appendChild(document.createTextNode(thankyou[i]));
+    container.appendChild(q);
+    q.appendChild(document.createElement("br"));
+    q.appendChild(document.createElement("br"));
+  }
+  var img = document.createElement("img");
+  img.setAttribute("src", "https://play.pokemonshowdown.com/sprites/dex/" + chosenPokemon.toLowerCase() + ".png");
+  container.appendChild(img);
+  container.appendChild(button);
+
 }
 
 function audio() {
