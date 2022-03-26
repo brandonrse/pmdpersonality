@@ -16,30 +16,21 @@ var questions = [...json["questions"]];
 var pokemon = json["pokemon"];
 var personalities = json["personalities"];
 var score = {
-  "Adamant":0,
-  "Bashful":0,
   "Bold":0,
   "Brave":0,
   "Calm":0,
-  "Careful":0,
   "Docile":0,
-  "Gentle":0,
   "Hardy":0,
   "Hasty":0,
   "Impish":0,
   "Jolly":0,
-  "Lax":0,
   "Lonely":0,
-  "Mild":0,
-  "Modest":0,
   "Naive":0,
-  "Naughty":0,
   "Quiet":0,
   "Quirky":0,
   "Rash":0,
   "Relaxed":0,
   "Sassy":0,
-  "Serious":0,
   "Timid":0
 };
 var count = 0;

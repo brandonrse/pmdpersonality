@@ -194,7 +194,7 @@
       "nature1_2":"",
       "nature1_3":"",
       "nature1_4":"",  
-      "nature2_1":"Hardy +2",
+      "nature2_1":"Timid +2",
       "nature2_2":"Brave +2",
       "nature2_3":"",
       "nature2_4":"",
@@ -263,7 +263,7 @@
       "nature1_2":"Hardy +2",
       "nature1_3":"",
       "nature1_4":"",  
-      "nature2_1":"Serious +3",
+      "nature2_1":"Hardy +3",
       "nature2_2":"",
       "nature2_3":"",
       "nature2_4":"",
@@ -313,7 +313,7 @@
       "nature2_2":"",
       "nature2_3":"",
       "nature2_4":"",
-      "nature3_1":"Serious +3",
+      "nature3_1":"Hardy +3",
       "nature3_2":"",
       "nature3_3":"",
       "nature3_4":"",
@@ -329,14 +329,14 @@
       "answer3":"Wait, I'm dead?!",
       "answer4":"",
       "nature1_1":"Bold +3",
-      "nature1_2":"Adamant +2",
+      "nature1_2":"Brave +2",
       "nature1_3":"",
       "nature1_4":"",  
-      "nature2_1":"Serious +3",
+      "nature2_1":"Hardy +3",
       "nature2_2":"",
       "nature2_3":"",
       "nature2_4":"",
-      "nature3_1":"Bashful +3",
+      "nature3_1":"Timid +3",
       "nature3_2":"",
       "nature3_3":"",
       "nature3_4":"",
@@ -351,7 +351,7 @@
       "answer2":"...This isn't real. Nothing is real.",
       "answer3":"No dogs allowed.",
       "answer4":"",
-      "nature1_1":"Serious +4",
+      "nature1_1":"Hardy +4",
       "nature1_2":"",
       "nature1_3":"",
       "nature1_4":"",  
@@ -382,7 +382,7 @@
       "nature2_2":"",
       "nature2_3":"",
       "nature2_4":"",
-      "nature3_1":"Lax +2",
+      "nature3_1":"Relaxed +2",
       "nature3_2":"",
       "nature3_3":"",
       "nature3_4":"",
@@ -405,12 +405,12 @@
       "nature2_2":"Quirky +2",
       "nature2_3":"",
       "nature2_4":"",
-      "nature3_1":"Serious +2",
+      "nature3_1":"Timid +2",
       "nature3_2":"",
       "nature3_3":"",
       "nature3_4":"",
       "nature4_1":"Sassy +2",
-      "nature4_2":"Lax +2",
+      "nature4_2":"Relaxed +2",
       "nature4_3":"",
       "nature4_4":""
     },
@@ -425,7 +425,7 @@
       "nature1_3":"",
       "nature1_4":"",  
       "nature2_1":"Calm +3",
-      "nature2_2":"Serious +2",
+      "nature2_2":"Hardy +2",
       "nature2_3":"",
       "nature2_4":"",
       "nature3_1":"Quirky +3",
@@ -448,7 +448,7 @@
       "nature1_3":"",
       "nature1_4":"",  
       "nature2_1":"Calm +3",
-      "nature2_2":"Modest +2",
+      "nature2_2":"Docile +2",
       "nature2_3":"",
       "nature2_4":"",
       "nature3_1":"Rash +2",
@@ -456,7 +456,7 @@
       "nature3_3":"",
       "nature3_4":"",
       "nature4_1":"Quirky +2",
-      "nature4_2":"Naughty +2",
+      "nature4_2":"Impish +2",
       "nature4_3":"",
       "nature4_4":""
     },
@@ -470,16 +470,453 @@
       "nature1_2":"Brave +2",
       "nature1_3":"Rash +1",
       "nature1_4":"",  
-      "nature2_1":"Adamant +2",
+      "nature2_1":"Hardy +2",
       "nature2_2":"Quiet +2",
       "nature2_3":"Lonely +1",
       "nature2_4":"",
-      "nature3_1":"Naughty +3",
+      "nature3_1":"Impish +3",
       "nature3_2":"Hasty +2",
       "nature3_3":"",
       "nature3_4":"",
       "nature4_1":"Impish +4",
       "nature4_2":"Quirky +3",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"The moon is going to crash into the Earth and destroy civilization. How do you spend your last moments?", 
+      "answer1":"Remain with your loved ones.",
+      "answer2":"Hope it miraculously disappears.",
+      "answer3":"The moon's not going to fall.",
+      "answer4":"Get as far away as possible!",
+      "nature1_1":"Timid +3",
+      "nature1_2":"Hardy +3",
+      "nature1_3":"Quiet +2",
+      "nature1_4":"",  
+      "nature2_1":"Naive +3",
+      "nature2_2":"Bold +3",
+      "nature2_3":"Quirky +2",
+      "nature2_4":"",
+      "nature3_1":"Hardy +3",
+      "nature3_2":"Relaxed +3",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Timid +4",
+      "nature4_2":"Hasty +3",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"You died, but found out you can possess objects as a ghost. What do you do with this power?", 
+      "answer1":"I'm gonna trip everyone!",
+      "answer2":"Fight crime!",
+      "answer3":"Steal things and frame people, heheh.",
+      "answer4":"Slam the door in people's faces.",
+      "nature1_1":"Impish +4",
+      "nature1_2":"",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Brave +4",
+      "nature2_2":"Rash +3",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Impish +4",
+      "nature3_2":"",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Impish +2",
+      "nature4_2":"Quirky +3",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Surprise! A friend appeared and is ready to hug you!", 
+      "answer1":"I love hugs!",
+      "answer2":"Run away!",
+      "answer3":"Eh. Whatever.",
+      "answer4":"",
+      "nature1_1":"Docile +4",
+      "nature1_2":"Calm +3",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Timid +3",
+      "nature2_2":"Hasty +2",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Hardy +3",
+      "nature3_2":"Bold +2",
+      "nature3_3":"Sassy +1",
+      "nature3_4":"",
+      "nature4_1":"",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"You're walking with your friend when all of a sudden they're arrested! What now?", 
+      "answer1":"Why'd you do it?",
+      "answer2":"They did nothing wrong!",
+      "answer3":"I'll defend you!",
+      "answer4":"Oh no, am I an accomplice?",
+      "nature1_1":"Hardy +4",
+      "nature1_2":"",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Bold +3",
+      "nature2_2":"Rash +3",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Brave +3",
+      "nature3_2":"Naive +1",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Quiet +3",
+      "nature4_2":"Timid +3",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Chaos everywhere in school! You find the principal dead in their office and your best friend just exited the room.", 
+      "answer1":"What did you do?!",
+      "answer2":"Who could do such a thing?",
+      "answer3":"I won't say anything.",
+      "answer4":"I'll kill whoever did this!",
+      "nature1_1":"Rash +4",
+      "nature1_2":"Hasty +3",
+      "nature1_3":"Bold +3",
+      "nature1_4":"",  
+      "nature2_1":"Naive +4",
+      "nature2_2":"",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Hardy +3",
+      "nature3_2":"Impish +2",
+      "nature3_3":"Naive +1",
+      "nature3_4":"",
+      "nature4_1":"Hasty +5",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"A mad scientist is experimenting on creatures and trying to fuse them, regardless if it hurts the creatures or not.", 
+      "answer1":"Stop that at once!",
+      "answer2":"Whoa... so cool.",
+      "answer3":"Let me try!",
+      "answer4":"Ignore the scientist.",
+      "nature1_1":"Brave +3",
+      "nature1_2":"Bold +3",
+      "nature1_3":"Hardy +2",
+      "nature1_4":"",  
+      "nature2_1":"Quirky +4",
+      "nature2_2":"Jolly +2",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Impish +3",
+      "nature3_2":"",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Sassy +3",
+      "nature4_2":"Docile +2",
+      "nature4_3":"Quiet +2",
+      "nature4_4":""
+    },
+    {
+      "question":"You get complimented. How do you react?", 
+      "answer1":"Thank you!",
+      "answer2":"No, you.",
+      "answer3":"I didn't do anything to deserve that.",
+      "answer4":"",
+      "nature1_1":"Jolly +4",
+      "nature1_2":"Quiet +2",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Quirky +2",
+      "nature2_2":"Docile +1",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Hardy +3",
+      "nature3_2":"Timid +2",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Oh no! The very things you created came to life and are hunting you down!", 
+      "answer1":"Run and hide, run and hide...",
+      "answer2":"I'll fight them all!",
+      "answer3":"Help!",
+      "answer4":"I'm not worried.",
+      "nature1_1":"Docile +4",
+      "nature1_2":"Timid +4",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Bold +3",
+      "nature2_2":"Hasty +2",
+      "nature2_3":"Rash +2",
+      "nature2_4":"",
+      "nature3_1":"Timid +4",
+      "nature3_2":"",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Calm +4",
+      "nature4_2":"Quiet +1",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Fighter, Mage, Thief.", 
+      "answer1":"Fighter",
+      "answer2":"Mage",
+      "answer3":"Thief",
+      "answer4":"",
+      "nature1_1":"Brave +4",
+      "nature1_2":"Bold +3",
+      "nature1_3":"Hardy +3",
+      "nature1_4":"",  
+      "nature2_1":"Calm +4",
+      "nature2_2":"Docile +3",
+      "nature2_3":"Quiet +3",
+      "nature2_4":"",
+      "nature3_1":"Quirky +4",
+      "nature3_2":"Impish +3",
+      "nature3_3":"Impish +3",
+      "nature3_4":"",
+      "nature4_1":"",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Through the power of witchcraft, an alternate version of you with a different gender appeared.", 
+      "answer1":"Hi, nice to meet you!",
+      "answer2":"You shouldn't exist.",
+      "answer3":"So... you're my inferior alt.",
+      "answer4":"Aaaaaaaaah!",
+      "nature1_1":"Docile +4",
+      "nature1_2":"Relaxed +3",
+      "nature1_3":"Naive +3",
+      "nature1_4":"Jolly +3",  
+      "nature2_1":"Rash +3",
+      "nature2_2":"Hardy +3",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Sassy +4",
+      "nature3_2":"Hardy +2",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Timid +4",
+      "nature4_2":"Docile +3",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Your name was suddenly changed by the powers that be.", 
+      "answer1":"Haha that's funny.",
+      "answer2":"Change it back!",
+      "answer3":"I saw that coming.",
+      "answer4":"I'll just change it back myself.",
+      "nature1_1":"Quirky +4",
+      "nature1_2":"Relaxed +2",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Hasty +3",
+      "nature2_2":"",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Relaxed +3",
+      "nature3_2":"",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Bold +3",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"You're visiting a graveyard at the dead of night when suddenly a body began crawling from a grave!", 
+      "answer1":"Scream.",
+      "answer2":"Run away to tell someone.",
+      "answer3":"Try and fight it.",
+      "answer4":"",
+      "nature1_1":"Timid +4",
+      "nature1_2":"",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Docile +3",
+      "nature2_2":"Hasty +3",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Bold +3",
+      "nature3_2":"Hasty +2",
+      "nature3_3":"Rash +2",
+      "nature3_4":"",
+      "nature4_1":"",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Chocolates.", 
+      "answer1":"Team milk chocolate",
+      "answer2":"Team white chocolate",
+      "answer3":"Team dark chocolate",
+      "answer4":"None of the above",
+      "nature1_1":"Calm +4",
+      "nature1_2":"",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Impish +4",
+      "nature2_2":"",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Brave +4",
+      "nature3_2":"",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Jolly +4",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"What does Pot of Greed do?", 
+      "answer1":"Draw two cards.",
+      "answer2":"Pot of what?",
+      "answer3":"No one knows what it does!",
+      "answer4":"Nothing because it's banned.",
+      "nature1_1":"Quiet +3",
+      "nature1_2":"Lonely +2",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Naive +3",
+      "nature2_2":"",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Sassy +3",
+      "nature3_2":"Quirky +3",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Calm +3",
+      "nature4_2":"Jolly +2",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"You have the opportunity to choose how high taxes should be raised. How high do you go?", 
+      "answer1":"5%",
+      "answer2":"8%",
+      "answer3":"50%",
+      "answer4":"",
+      "nature1_1":"Docile +3",
+      "nature1_2":"Quiet +2",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Calm +3",
+      "nature2_2":"",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Quirky +4",
+      "nature3_2":"Jolly +2",
+      "nature3_3":"Rash +2",
+      "nature3_4":"",
+      "nature4_1":"",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"You're opening a pack of trading cards. What do you hope for?", 
+      "answer1":"A super ultra mega legendary rare!",
+      "answer2":"I like holographic cards.",
+      "answer3":"Cute art!",
+      "answer4":"The card that ruins the meta.",
+      "nature1_1":"Jolly +4",
+      "nature1_2":"",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Lonely +3",
+      "nature2_2":"Relaxed +2",
+      "nature2_3":"Jolly +2",
+      "nature2_4":"",
+      "nature3_1":"Naive +3",
+      "nature3_2":"Jolly +2",
+      "nature3_3":"Relaxed +3",
+      "nature3_4":"",
+      "nature4_1":"Sassy +4",
+      "nature4_2":"Quirky +2",
+      "nature4_3":"Lonely +2",
+      "nature4_4":""
+    },
+    {
+      "question":"Are you playing with tilt controls?", 
+      "answer1":"Yes.",
+      "answer2":"No.",
+      "answer3":"",
+      "answer4":"",
+      "nature1_1":"Jolly +4",
+      "nature1_2":"Quirky +4",
+      "nature1_3":"Lonely +3",
+      "nature1_4":"Sassy +2",  
+      "nature2_1":"Hardy +2",
+      "nature2_2":"Hasty +4",
+      "nature2_3":"Rash +3",
+      "nature2_4":"",
+      "nature3_1":"",
+      "nature3_2":"",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"Choose a number from 1-10.", 
+      "answer1":"Even? Loves me not.",
+      "answer2":"Odd? Loves me.",
+      "answer3":"I read the options before picking a number.",
+      "answer4":"",
+      "nature1_1":"Lonely +4",
+      "nature1_2":"",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Jolly +4",
+      "nature2_2":"",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Hasty +4",
+      "nature3_2":"Rash +3",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"",
+      "nature4_2":"",
+      "nature4_3":"",
+      "nature4_4":""
+    },
+    {
+      "question":"I'm going to ask you place your thumb on the screen. We shall now detect your aura...", 
+      "answer1":"Your aura colour is... a gentle mint green.",
+      "answer2":"Your aura colour is... a mystic purple.",
+      "answer3":"Your aura colour is... a fiery red.",
+      "answer4":"You didn't put your thumb on the screen.",
+      "nature1_1":"Quiet +4",
+      "nature1_2":"Relaxed +4",
+      "nature1_3":"",
+      "nature1_4":"",  
+      "nature2_1":"Calm +4",
+      "nature2_2":"Docile +4",
+      "nature2_3":"",
+      "nature2_4":"",
+      "nature3_1":"Jolly +4",
+      "nature3_2":"Impish +4",
+      "nature3_3":"",
+      "nature3_4":"",
+      "nature4_1":"Sassy +4",
+      "nature4_2":"Bold +4",
       "nature4_3":"",
       "nature4_4":""
     }
@@ -511,7 +948,7 @@
     },
     {
       "name":"Psyduck",
-      "nature":"Relaxed"
+      "nature":"Quiet"
     },
     {
       "name":"Cubone",
@@ -539,7 +976,7 @@
     },
     {
       "name":"Phanpy",
-      "nature":"Relaxed"
+      "nature":"Timid"
     },
     {
       "name":"Treecko",
@@ -559,7 +996,7 @@
     },
     {
       "name":"Poochyena",
-      "nature":"Rash"
+      "nature":"Sassy"
     },
     {
       "name":"Turtwig",
@@ -571,7 +1008,7 @@
     },
     {
       "name":"Piplup",
-      "nature":"Quirky"
+      "nature":"Docile"
     },
     {
       "name":"Shinx",
@@ -579,7 +1016,7 @@
     },
     {
       "name":"Munchlax",
-      "nature":"Lax"
+      "nature":"Relaxed"
     },
     {
       "name":"Riolu",
@@ -591,11 +1028,11 @@
     },
     {
       "name":"Tepig",
-      "nature":"Mild"
+      "nature":"Jolly"
     },
     {
       "name":"Oshawott",
-      "nature":"Adamant"
+      "nature":"Sassy"
     },
     {
       "name":"Axew",
@@ -611,19 +1048,19 @@
     },
     {
       "name":"Froakie",
-      "nature":"Modest"
+      "nature":"Bold"
     },
     {
       "name":"Pancham",
-      "nature":"Serious"
+      "nature":"Impish"
     },
     {
-      "name":"Rowlett",
-      "nature":"Lax"
+      "name":"Rowlet",
+      "nature":"Relaxed"
     },
     {
       "name":"Litten",
-      "nature":"Careful"
+      "nature":"Rash"
     },
     {
       "name":"Popplio",
@@ -635,7 +1072,7 @@
     },
     {
       "name":"Scorbunny",
-      "nature":"Adamant"
+      "nature":"Bold"
     },
     {
       "name":"Sobble",
@@ -643,35 +1080,170 @@
     },
     {
       "name":"Wooloo",
-      "nature":"Gentle"
+      "nature":"Quiet"
+    },
+    {
+      "name":"Cleffa",
+      "nature":"Calm"
+    },
+    {
+      "name":"Elekid",
+      "nature":"Bold"
+    },
+    {
+      "name":"Magby",
+      "nature":"Hardy"
+    },
+    {
+      "name":"Smoochum",
+      "nature":"Docile"
+    },
+    {
+      "name":"Lotad",
+      "nature":"Quirky"
+    },
+    {
+      "name":"Seedot",
+      "nature":"Hardy"
+    },
+    {
+      "name":"Ralts",
+      "nature":"Quiet"
+    },
+    {
+      "name":"Shroomish",
+      "nature":"Impish"
+    },
+    {
+      "name":"Wingull",
+      "nature":"Lonely"
+    },
+    {
+      "name":"Buizel",
+      "nature":"Hardy"
+    },
+    {
+      "name":"Aipom",
+      "nature":"Jolly"
+    },
+    {
+      "name":"Cherubi",
+      "nature":"Quiet"
+    },
+    {
+      "name":"Gothita",
+      "nature":"Timid"
+    },
+    {
+      "name":"Solosis",
+      "nature":"Bold"
+    },
+    {
+      "name":"Mienfoo",
+      "nature":"Hasty"
+    },
+    {
+      "name":"Ducklett",
+      "nature":"Jolly"
+    },
+    {
+      "name":"Flabébé",
+      "nature":"Naive"
+    },
+    {
+      "name":"Teddiursa",
+      "nature":"Quirky"
+    },
+    {
+      "name":"Mareep",
+      "nature":"Calm"
+    },
+    {
+      "name":"Goomy",
+      "nature":"Quirky"
+    },
+    {
+      "name":"Skiddo",
+      "nature":"Docile"
+    },
+    {
+      "name":"Espurr",
+      "nature":"Calm"
+    },
+    {
+      "name":"Inkay",
+      "nature":"Relaxed"
+    },
+    {
+      "name":"Mareanie",
+      "nature":"Hardy"
+    },
+    {
+      "name":"Fomantis",
+      "nature":"Lonely"
+    },
+    {
+      "name":"Morelull",
+      "nature":"Naive"
+    },
+    {
+      "name":"Nickit",
+      "nature":"Impish"
+    },
+    {
+      "name":"Impidimp",
+      "nature":"Impish"
+    },
+    {
+      "name":"Hatenna",
+      "nature":"Brave"
+    },
+    {
+      "name":"Snom",
+      "nature":"Relaxed"
+    },
+    {
+      "name":"Zigzagoon",
+      "nature":"Rash"
+    },
+    {
+      "name":"Budew",
+      "nature":"Naive"
+    },
+    {
+      "name":"Horsea",
+      "nature":"Lonely"
+    },
+    {
+      "name":"Sneasel",
+      "nature":"Hasty"
+    },
+    {
+      "name":"Meditite",
+      "nature":"Calm"
+    },
+    {
+      "name":"Rockruff",
+      "nature":"Brave"
     }
   ],
   "personalities":[
     {
-      "Adamant":"You're the wall that stands between your allies and your enemies.\nThat is to say, you're a stubborn one.\nYour mind is made up, you won't change your mind no matter the circumstance.\nYou stay true to your principles.\nI kind of admire that.\nIt might make people uncomfortable, but only true friends can appreciate such loyalty and unwavering will.\nYes, an adamant person like you should be...",
-      "Bashful":"Wow, you're amazing- wait, hey don't look away! No reason to be embarrassed!\nBut that's just the kind of person you are. You're too shy to say what you feel and miss the moment.\nI'm sure you have many regrets.\nBut being in the spotlight just isn't your thing. What if you said something wrong and suddenly someone's day is ruined!\nMaybe work on being less self-conscious.\nA bashful person like you should be...",
       "Bold":"You're so brave, and you never back down from anything! And you're also gutsy and brash in a way that others aren't! You're not shy about asking to take home all the leftovers at restaurants, right?\nIf someone's treating you to dinner, you have no problem with ordering lots of good stuff!\nAnd you aren't fazed by doing things that most others would think twice about doing.\nPerhaps you don't even notice when others are upset with you!\nYou know, you have the potential to become a truly great person...because you'll be the last one standing!\nSo, a bold type like you...",
       "Brave":"You have a strong sense of justice. You hate evil. You will take on any opponent.\nYou are truly a hero! Go forth!\nFor justice...\nFor peace on earth...\nFight the forces of evil!\nIf I’m wrong, work at becoming a true hero!\nA brave person like you should be...",
       "Calm":"You’re capable of giving advice to friends with worries. You don’t like to fight. You’re a warm kindhearted person who cares.\nYou must have many friends who look up to you.\nHowever... you may also be somewhat gullible as well as a little careless and even a little meddlesome.\nYou might want to keep those points in mind.\nA calm person like you should be...",
-      "Careful":"",
       "Docile":"You’re very kindhearted. Very helpful. You can make friends with anyone. You’re a very wonderful person... \nIs that going overboard? I don’t think so.\nYou yourself should be the best judge of that.\nA docile person like you should be...",
-      "Gentle":"",
       "Hardy":"You do your homework diligently, and you know how to eat properly.\nYou have strong willpower that lets you complete tasks, however tough.\nBut you can also be stubborn to the point of even feuding with friends.\nNothing will go right for you when you’re irritated, so learn to laugh it off.\nA hardy person like you should be...",
       "Hasty":"You like to take charge and get things done. You’re a real go-getter.\nBut are you also stressed out? You get irritated when your friends don’t show up on time. You get frustrated when things don’t turn out the way you expect.\nMaybe you jab the elevator button if the elevator is slow to arrive.\nMaybe you’re already tapping your mouse or screen repeatedly now.\nBeware - getting too easily irritated may waste your energy.\nA hasty person like you should be...",
       "Impish":"You’re playful, cheerful, and you love pranks. You’re also kindhearted. That’s why the people around you find you so irresistible.\nYou must be the most popular person around!\nOh?\nYou’re not that popuar?\nYou’re either being modest... or you just don’t notice it. I bet people are just too shy to let their feelings be known.\nThere’s someone out there who’s afraid to declare their love for you!\nAn impish person like you should be...",
       "Jolly":"Always laughing and smiling, you uplift everyone around you. You love jokes! You have lots of friends, and you’re popular wherever you go.\nBut sometimes you get carried away and say things that get you in trouble.\nYou should learn to think before saying or doing anything.\nA jolly person like you should be...",
-      "Lax":"",
       "Lonely":"You always act cheerful and jocular around other people. But that’s only because you are with other people.\nHowever, when you’re alone...\nDo you find yourself feeling oddly depressed?\nThat’s why you always want to be with others. It’s not good to go around feeling depressed too much. Why don’t you call up a friend instead?\nJust remember, it’s not a bad thing to be lonely.\nYou know what it’s like when you aren’t alone, so that’s why you feel lonesome. And that’s why you aren’t really alone.\nA lonely person like you should be...",
-      "Mild":"",
-      "Modest":"",
       "Naive":"You are highly curious and you love rare things. You have a cheerful and carefree attitude which should make things fun for the people around you.\nBut you have one flaw.\nYou can be childish. You can never sit still. You’re always on the move. You can also be selfish, so you should watch yourself.\nA Naive person like you should be...",
-      "Naughty":"",
       "Quiet":"You're great with numbers, and you analyze information before making decisions. You rarely make mistakes, because you make decisions so calmly and rationally.\nYou also may find it hard to guess what others are thinking, and they may find you a touch cold at times.\nYou may not want to keep your feelings to yourself so much of the time.\nSo, a quiet and calm type like you...",
       "Quirky":"People consider you an eccentric, doing things at your own pace. You never break tempo. Your carefree nature makes you attractive.\nBut you also happen to be somewhat childish. You are fickle and cause problems for the people who have to go along with you.\nMaybe people are even upset with you for being so fickle?\nIf you realize how selfishly you’re behaving, try to think before you don anything rash.\nA quirky person like you should be...",
       "Rash":"You seem to be even a bit hasty at times!\nYou may run out of your house an forget to lock the door once in a while. And you may leave things like umbrellas behind when you leave places.\nMaybe you even dash outside in your slippers every now and then! Perhaps you even wear your shirts inside out all the time!\nOh, is that even rasher than you really are?\nSo sorry!\nBut know that your friends think your funny little flubs are adorable!\nOh, wait! One more thing!\nYou also sometimes reveal your friends' secrets by accidents, don't you!\nSorry. Had to be said!\nSo, without further ado...a rash and hasty type like you...",
       "Relaxed":"Do you occasionally zone out and miss a bus? Or do you find yourself dozing off? Or is your reaction time a little slower than others?\nBut that’s not necessarily a bad thing.\nYou can do things at your own tempo without feeling pressured.\nYou can live in a relaxed and unhurried manner without worries.\nI think that’s a happy lifestyle to be envied, even.\nYou’re also surprisingly popular. The way you vacantly stare off into the distance... It should make that some special’s pulse race.\nA relaxed person like you should be...",
       "Sassy":"You tend to be somewhat cynical. Despite that, there is something appealing and lovable about you.\nBut do you occasionally say something arrogant that angers others?\nDo you make that mistake or have people called you conceited, vain, or selfish? Have people said that about you?\nHuh?\nYou’re telling me to get lost?\nWhy, you...\nCome here and say that!\n*gasp*\nI’m sorry.\nI let my feelings run away.\nI truly regret this, really.\nAnyway, your cool and aloof attitude is what defines you. It makes you exasperating and appealing at the same time.\nA sassy person like you should be...",
-      "Serious":"",
       "Timid": "You may find it hard to go to the washroom at night. You may also find it too frightening to go back to school to get something you left behind in class.\nIf you’re ever walking on a dark street at night you probably turn around often to check behind you.\nBut your timid nature is also your good point!\nBecause those who know fear are those who know true courage.\nA timid person like you should be..."
     }
   ]
